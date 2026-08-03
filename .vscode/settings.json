@@ -1,0 +1,14 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+  "python.terminal.activateEnvironment": true,
+  "terminal.integrated.profiles.windows": {
+    "Python venv (Command Prompt)": {
+      "path": "${env:ComSpec}",
+      "args": [
+        "/k",
+        "${workspaceFolder}\\.venv\\Scripts\\activate.bat"
+      ]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Python venv (Command Prompt)"
+}
